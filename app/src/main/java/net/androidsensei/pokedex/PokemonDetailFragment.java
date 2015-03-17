@@ -79,10 +79,10 @@ public class PokemonDetailFragment extends Fragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.pokemon_detail, menu);
 
-        MenuItem item = menu.findItem(R.id.action_share);
+        /* MenuItem item = menu.findItem(R.id.action_share);
         mShareActionProvider = (ShareActionProvider) MenuItemCompat
                 .getActionProvider(item);
-        mShareActionProvider.setShareIntent(getDefaultShareIntent());
+        mShareActionProvider.setShareIntent(getDefaultShareIntent()); */
         super.onCreateOptionsMenu(menu,inflater);
     }
 
@@ -98,11 +98,11 @@ public class PokemonDetailFragment extends Fragment {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if(id == android.R.id.home){
+        /* if(id == android.R.id.home){
             NavUtils.navigateUpFromSameTask(getActivity());
             return true;
         }else if(id == R.id.action_ver_imagen){
-        }
+        } */
         return super.onOptionsItemSelected(item);
     }
 }

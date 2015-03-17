@@ -5,7 +5,8 @@
     <string name="hello_world">Atrapalos YA!</string>
     <string name="action_settings">Settings</string>
     <string name="loading">Cargando</string>
-    <string name="title_activity_pokemon_detail">PokemonDetailActivity</string>
+    <string name="title_activity_pokemon_detail">Know more</string>
+    <string name="pokemon_name">Pikachu</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_prueba">PruebaActivity</string>
 

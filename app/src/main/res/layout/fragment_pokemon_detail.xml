@@ -29,7 +29,6 @@
                 android:paddingLeft="@dimen/padding"
                 android:paddingRight="@dimen/padding"
                 android:paddingTop="@dimen/padding"
-                android:visibility="gone"
                 style="@style/pokemonNameTitle"/>
 
             <ScrollView

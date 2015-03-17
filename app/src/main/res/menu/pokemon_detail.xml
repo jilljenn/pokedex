@@ -2,17 +2,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <item
+    <!-- <item
         android:id="@+id/action_share"
         android:title="Share"
         android:icon="@android:drawable/ic_menu_share"
         app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:visibility="gone"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_ver_imagen"
         android:title="Ver Imagen"
         android:icon="@android:drawable/ic_menu_view"
-        app:showAsAction="ifRoom" />
+        android:visibility="gone"
+        app:showAsAction="ifRoom" /> -->
 
 </menu>

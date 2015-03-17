@@ -22,7 +22,7 @@ public class PokedexDbHelper extends SQLiteOpenHelper {
 
         final String SQL_CREATE_POKEMON_TABLE = "CREATE TABLE " + PokemonEntry.TABLE_NAME + " (" +
                 PokemonEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
-                PokemonEntry.COLUMN_NAME + " TEXT UNIQUE NOT NULL, " +
+                PokemonEntry.COLUMN_NAME + " TEXT UNIQUE ON CONFLICT IGNORE NOT NULL, " +
                 PokemonEntry.COLUMN_DESCRIPTION + " TEXT NOT NULL );";
 
         sqLiteDatabase.execSQL(SQL_CREATE_POKEMON_TABLE);
