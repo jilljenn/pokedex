@@ -20,16 +20,11 @@ public class PokemonDetailActivity extends ActionBarActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        if (savedInstanceState != null) {
-            mCurrentPokemon = savedInstanceState.getParcelable("mCurrentPokemon");
-        } else {
-            Pokemon pokemon = getIntent().getParcelableExtra("pokemon");
-            mCurrentPokemon = pokemon;
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.pokemon_detail_container, new PokemonDetailFragment())
+                    .commit();
         }
-
-        PokemonDetailFragment fragment = PokemonDetailFragment.newInstance(mCurrentPokemon);
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.pokemon_detail_container, fragment).commit();
     }
 
     @Override

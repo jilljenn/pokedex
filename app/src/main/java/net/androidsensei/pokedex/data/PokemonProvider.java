@@ -29,6 +29,8 @@ public class PokemonProvider extends ContentProvider {
 
     static {
         sPokemonQueryBuilder = new SQLiteQueryBuilder();
+
+        sPokemonQueryBuilder.setTables(PokedexContract.PokemonEntry.TABLE_NAME);
     }
 
     private Cursor getPokemonById(Uri uri, String[] projection, String sortOrder) {

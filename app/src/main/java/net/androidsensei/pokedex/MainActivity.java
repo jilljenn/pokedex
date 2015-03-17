@@ -9,6 +9,7 @@ import android.view.MenuItem;
 public class MainActivity extends ActionBarActivity implements
         PokemonListFragment.Callbacks{
 
+    private static final String DETAILFRAGMENT_TAG = "DFTAG";
     private boolean mTwoPane;
 
     private Pokemon mCurrentPokemon;
@@ -28,9 +29,9 @@ public class MainActivity extends ActionBarActivity implements
         }
 
         if (savedInstanceState == null && mTwoPane) {
-            PokemonDetailFragment fragment = PokemonDetailFragment.newInstance(null);
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.pokemon_detail_container, fragment).commit();
+                    .add(R.id.pokemon_detail_container, new PokemonDetailFragment(), DETAILFRAGMENT_TAG)
+                    .commit();
         }
     }
 
@@ -38,9 +39,9 @@ public class MainActivity extends ActionBarActivity implements
     public void onItemSelected(Pokemon pokemon) {
         mCurrentPokemon = pokemon;
         if (mTwoPane) {
-            PokemonDetailFragment fragment = PokemonDetailFragment.newInstance(mCurrentPokemon);
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.pokemon_detail_container, fragment).commit();
+                    .replace(R.id.pokemon_detail_container, new PokemonDetailFragment(), DETAILFRAGMENT_TAG)
+                    .commit();
         } else {
             Intent detailIntent = new Intent(this, PokemonDetailActivity.class);
             detailIntent.putExtra("pokemon", pokemon);
