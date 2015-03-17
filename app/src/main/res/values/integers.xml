@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <integer name="pokemon_detail_photo_percent">45</integer>
+    <integer name="pokemon_detail_info_percent">55</integer>
+
+</resources>

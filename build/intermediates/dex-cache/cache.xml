@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jin/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.7/7d0f75f98b0283208d76bfd9fefebcc3257ec3bf/library-1.0.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7d0f75f98b0283208d76bfd9fefebcc3257ec3bf">
+        <dex dex="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/pre-dexed/debug/library-1.0.7-f71eff64f19b7e958b3c73565900a6e614b715ef.jar" />
+    </item>
+    <item
+        jar="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/pre-dexed/debug/classes-bf669b8df3e6ce203ef8feb94b5d9e7ce5cc0f29.jar" />
+    </item>
+    <item
+        jar="/Users/jin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-c20fa0d3c462eb64e0f2bc9038adeed75be76708.jar" />
+    </item>
+    <item
+        jar="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-61f3e100e51076544b7db41f94e7b427ffb6f5bb.jar" />
+    </item>
+    <item
+        jar="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/pre-dexed/debug/classes-4fadb66781b4ae236bb0f4a048b0013d3a31628b.jar" />
+    </item>
+    <item
+        jar="/Users/jin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/jin/code/Pokedex-for-Android/app/build/intermediates/pre-dexed/debug/gson-2.3-e7c06072b9dfb4cb2e606911a354f9448d472312.jar" />
+    </item>
+
+</items>
